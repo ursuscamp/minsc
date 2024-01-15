@@ -4,10 +4,11 @@ extern crate lalrpop_util;
 #[macro_use]
 extern crate lazy_static;
 
-lalrpop_mod!(
-    #[allow(clippy::all)]
-    grammar
-);
+// lalrpop_mod!(
+//     #[allow(clippy::all)]
+//     grammar
+// );
+mod grammar;
 
 #[macro_use]
 mod macros;
