@@ -252,7 +252,7 @@ dependencies = [
  "ena",
  "is-terminal",
  "itertools",
- "lalrpop-util 0.20.0",
+ "lalrpop-util",
  "petgraph",
  "pico-args",
  "regex",
@@ -262,12 +262,6 @@ dependencies = [
  "tiny-keccak",
  "unicode-xid",
 ]
-
-[[package]]
-name = "lalrpop-util"
-version = "0.19.7"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d6d265705249fe209280676d8f68887859fa42e1d34f342fc05bd47726a5e188"
 
 [[package]]
 name = "lalrpop-util"
@@ -332,7 +326,7 @@ version = "0.2.0"
 dependencies = [
  "chrono",
  "lalrpop",
- "lalrpop-util 0.19.7",
+ "lalrpop-util",
  "lazy_static",
  "regex",
  "sapio-miniscript",
@@ -521,8 +515,9 @@ dependencies = [
 
 [[package]]
 name = "sapio-miniscript"
-version = "7.0.0-6"
-source = "git+https://github.com/shesek/rust-miniscript?branch=sapio-minsc#7fa64fd99b15f668f28836c845c03a606b7aca24"
+version = "7.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cb20a27a29805f37e0a4a38b698c49392301ac139ce899ddc8fb3559a9974ac6"
 dependencies = [
  "sapio-bitcoin",
 ]
